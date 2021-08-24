@@ -1,6 +1,5 @@
-pipeline {
-  agent { label "linux" }
-  stages {
+node {
+    stages {
     stage("build") {
       steps {
         sh """
